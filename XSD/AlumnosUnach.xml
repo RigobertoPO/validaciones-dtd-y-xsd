@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ALUMNOS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:/D:/Ejemplos/SW/XSD/AlumnosUnach.xsd">
+    <Alumno>
+      <Nombre>Reynel Perez</Nombre>
+      <Carrera>LSC</Carrera>
+      <Calificaciones>
+        <Calificacion>
+          <Materia>Ingenieria de Software 2</Materia>
+          <Promedio>9</Promedio>
+        </Calificacion>
+        <Calificacion>
+              <Materia>Servicios Web</Materia>
+              <Promedio>10</Promedio>
+        </Calificacion>
+      </Calificaciones>
+    </Alumno>
+    
+    <Alumno>
+      <Nombre>Ana Karen</Nombre>
+      <Carrera>Medicina</Carrera>
+      <Calificaciones>
+          <Calificacion>
+            <Materia>Biologia</Materia>
+            <Promedio>8</Promedio>
+          </Calificacion>      
+      </Calificaciones>
+    </Alumno>
+    <Alumno>
+          <Nombre>Juan Jose</Nombre>
+        <Carrera>Mecaánica</Carrera>
+        <Calificaciones>
+            <Calificacion>
+              <Materia>Física</Materia>
+              <Promedio>10</Promedio>
+            </Calificacion>      
+        </Calificaciones>
+    </Alumno>
+</ALUMNOS>

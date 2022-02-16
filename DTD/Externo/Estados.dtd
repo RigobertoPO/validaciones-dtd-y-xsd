@@ -1,0 +1,7 @@
+<!ELEMENT Estados (Estado)*>
+ <!ELEMENT Estado (Nombres, Capital, CantidadMunicipios, Habitantes, Gobernador)>
+ <!ELEMENT Nombres (#PCDATA)>
+  <!ELEMENT Capital (#PCDATA)>
+   <!ELEMENT CantidadMunicipios (#PCDATA)>
+    <!ELEMENT Habitantes (#PCDATA)>
+    <!ELEMENT Gobernador EMPTY>

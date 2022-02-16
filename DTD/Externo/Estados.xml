@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Estados SYSTEM "file:/D:/Ejemplos/SW/DTD/Externo/Estados.dtd">
+<Estados>
+    <Estado>
+        <Nombres>Chiapas</Nombres>
+        <Capital>Tuxtla Gtz</Capital>
+        <CantidadMunicipios>124</CantidadMunicipios>
+        <Habitantes>256000</Habitantes>
+        <Gobernador/>
+    </Estado>
+    <Estado>
+        <Nombres>Jalisco</Nombres>
+        <Capital>Guadalajara</Capital>
+        <CantidadMunicipios>125</CantidadMunicipios>
+        <Habitantes>300000</Habitantes>
+        <Gobernador/>
+    </Estado>
+    <Estado>
+        <Nombres>Querétaro</Nombres>
+        <Capital>Querétaro</Capital>
+        <CantidadMunicipios>15</CantidadMunicipios>
+        <Habitantes>200000</Habitantes>
+        <Gobernador/>
+    </Estado>
+</Estados>

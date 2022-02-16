@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="ALUMNOS">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Alumno"  minOccurs="0" maxOccurs="unbounded">
+            <xs:complexType>
+              <xs:sequence>
+              <xs:element name="Nombre" type="xs:string" />
+               <xs:element name="Carrera" type="xs:string" />
+                <xs:element name="Calificaciones">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Calificacion" minOccurs="0" maxOccurs="unbounded">
+                    <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="Materia" type="xs:string" />
+                         <xs:element name="Promedio" type="xs:integer" />                     
+                    </xs:sequence>                    
+                    </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>                
+                </xs:complexType>
+                </xs:element>
+              </xs:sequence>            
+            </xs:complexType>        
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE  Estados [
+<!ELEMENT Estados (Estado)*>
+ <!ELEMENT Estado (Nombre, Capital, CantidadMunicipios, Habitantes, Gobernador)>
+ <!ELEMENT Nombre (#PCDATA)>
+  <!ELEMENT Capital (#PCDATA)>
+   <!ELEMENT CantidadMunicipios (#PCDATA)>
+    <!ELEMENT Habitantes (#PCDATA)>
+    <!ELEMENT Gobernador EMPTY>
+]>
+
+<Estados>
+    <Estado>
+        <Nombre>Chiapas</Nombre>
+        <Capital>Tuxtla Gtz</Capital>
+        <CantidadMunicipios>124</CantidadMunicipios>
+        <Habitantes>256000</Habitantes>
+        <Gobernador/>
+    </Estado>
+    <Estado>
+        <Nombre>Jalisco</Nombre>
+        <Capital>Guadalajara</Capital>
+        <CantidadMunicipios>125</CantidadMunicipios>
+        <Habitantes>300000</Habitantes>
+        <Gobernador/>
+    </Estado>
+    <Estado>
+        <Nombre>Querétaro</Nombre>
+        <Capital>Querétaro</Capital>
+        <CantidadMunicipios>15</CantidadMunicipios>
+        <Habitantes>200000</Habitantes>
+        <Gobernador/>
+    </Estado>
+</Estados>
